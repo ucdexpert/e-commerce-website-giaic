@@ -9,14 +9,7 @@
 //     },
 //   }
   // next.config.js
-module.exports = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'your-domain.com', // Replace with the actual domain
-        pathname: '/path/to/images/**', // Optional: Specify the path pattern
-      },
-    ],
-  },
-};
+  export default {
+    reactStrictMode: true,
+    // other configurations
+  };
